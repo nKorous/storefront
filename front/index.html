@@ -8,7 +8,22 @@
 
 <body>
     <main>
-        <h1 class='header'>The Quick Brown Fox Jumped Over The Lazy Dog</h1>
+        <h1 class='header'>Product List
+            <button onclick='getProductList()'>refresh</button>
+        </h1>
+        <table class='tableMain'>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Product</th>
+                    <th>Description</th>
+                    <th>In Stock</th>
+                </tr>
+            </thead>
+            <tbody id='tableBody'></tbody>
+        </table>
+
+        
     </main>
 
     <script type='text/javascript' src='./index.js'></script>
