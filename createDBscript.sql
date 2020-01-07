@@ -1,5 +1,7 @@
 create database storefront
 
+use storefront
+
 create table products (
 	productKey int PRIMARY KEY IDENTITY(1,1),
 	productName nvarchar(100) not null,
