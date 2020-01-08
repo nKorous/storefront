@@ -26,24 +26,4 @@ function loadDataIntoTable(data) {
     })
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 getProductList()
